@@ -1,15 +1,14 @@
-[![CI](https://github.com/iris-hep/iris-hep.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/iris-hep/iris-hep.github.io/actions/workflows/deploy.yml)
+[![CI](https://github.com/fairos-hep/fairos-hep.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/fairos-hep/fairos-hep.github.io/actions/workflows/deploy.yml)
 
 Is this badge red? Click on it to find out what's wrong with the repository...
 
-# iris-hep.org Website
+# FAIROS-hep.org Website
 
-GitHub pages for IRIS-HEP project website.
+GitHub pages for FAIROS-HEP project website.
 
 Even if you have edit permissions, please make a pull request. The advantage of
 making a pull request instead of directly editing is that changes made via pull
 request will be tested to ensure that all is ok with your changes...
-
 
 ## Testing locally quick instructions (see [setup](https://iris-hep.org/docs/webdev) for full instructions):
 

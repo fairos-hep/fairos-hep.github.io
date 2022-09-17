@@ -57,14 +57,14 @@ module IrisHep
       input.map { |k| hash.fetch(key.nil? ? k : k[key], nil) }
     end
 
-    # Keys of a hash
+    # Keys of a hash. Returns an empty list if nil.
     def keys(input)
-      input.keys
+      input&.keys || []
     end
 
-    # Values of a hash
+    # Values of a hash. Returns an empty list if nil.
     def values(input)
-      input.values
+      input&.values || []
     end
 
     # Selects items where there is an overlap between items

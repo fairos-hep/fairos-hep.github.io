@@ -23,7 +23,7 @@ module Checks
         p.print_warnings
       end
 
-      @site.data['fellow_projects'].each do |name, hash|
+      @site.data['fellow_projects']&.each do |name, hash|
         msg = name
         p = Record.new(msg, hash)
         p.key 'contacts', :nonempty, usernames: people

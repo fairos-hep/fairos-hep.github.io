@@ -11,7 +11,7 @@ module Checks
     def generate(site)
       @site = site
 
-      @site.data['publications'].each do |name, pub_hash|
+      @site.data['publications']&.each do |name, pub_hash|
         msg = "Publication in _data/publications/#{name}.yaml"
 
         ensure_array(pub_hash, 'focus-area')

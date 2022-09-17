@@ -60,7 +60,7 @@ module Publications
     private
 
     def get_publications(publications)
-      publications.values.sort_by { |p| p['date'] }.reverse!
+      publications&.values&.sort_by { |p| p['date'] }&.reverse!
     end
 
     def str_to_date(input, name)

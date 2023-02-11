@@ -6,7 +6,7 @@ title: PI Team
 
 <div class="container-fluid">
   <h1>PI Team</h1><br>
-  <p><b>The Principal Investigators for the NSF-funded FAIROS-HEP project are.</b></p>
+  <p><b>The Principal Investigators for the NSF-funded FAIROS-HEP project are:</b></p>
   <div class="row">
   {% for member in site.data.orgs.pi-team.personnel  %}
      {% assign person = site.data.people[member] %}

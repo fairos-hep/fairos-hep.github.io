@@ -5,7 +5,7 @@ image: /assets/images/nsfalexandria1_md.jpg
 ---
 
 
-The National Science Foundation (NSF) has funded 10 new projects, including FAIROS-HEP, focused on building and enhancing coordination among researchers and other stakeholders to advance FAIR (findable, accessible, interoperable, reusable) data principles and open-science practices. 
+The National Science Foundation (NSF) has funded 10 new projects, including FAIROS-HEP, which are focused on building and enhancing coordination among researchers and other stakeholders to advance FAIR (findable, accessible, interoperable, reusable) data principles and open-science practices. 
 
   For information see [https://www.arl.org/news/arl-applauds-nsf-open-science-investment/](https://www.arl.org/news/arl-applauds-nsf-open-science-investment/).
 

@@ -1,14 +1,14 @@
 ---
-permalink: /about/executive-board.html
+permalink: /about/pi-team.html
 layout: default
-title: Executive Board
+title: PI Team
 ---
 
 <div class="container-fluid">
-  <h1>Executive Board</h1><br>
-  <p><b>The Executive Board manages the day to day activities of the project.</b></p>
+  <h1>PI Team</h1><br>
+  <p><b>The Principal Investigators for the NSF-funded FAIROS-HEP project are.</b></p>
   <div class="row">
-  {% for member in site.data.orgs.exec-board.personnel  %}
+  {% for member in site.data.orgs.pi-team.personnel  %}
      {% assign person = site.data.people[member] %}
        <div class="card" style="width: 12rem;">
          <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">

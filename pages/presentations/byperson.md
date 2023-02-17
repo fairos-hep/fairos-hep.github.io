@@ -6,7 +6,7 @@ title: Presentations by Person
 
 {% assign empty-list = "" | split: "," %}
 
-<h2>Presentations by the IRIS-HEP team</h2>
+<h2>Presentations by the FAIROS-HEP team</h2>
 {% assign prescount = 0 %}
 
 {% assign members = site.data.people | where_exp:"item", "item.active and item.hidden != true"
@@ -30,7 +30,7 @@ title: Presentations by Person
 
 Total presentations: {{ prescount }}.
 
-<h2>Presentations by former IRIS-HEP team Members</h2>
+<h2>Presentations by former FAIROS-HEP team Members</h2>
 
 
 {% assign prescount = 0 %}

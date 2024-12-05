@@ -56,4 +56,4 @@ jobs:
           && github.ref == 'refs/heads/master'
           && github.repository == 'fairos-hep/fairos-hep.github.io'
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
